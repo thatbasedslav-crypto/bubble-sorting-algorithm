@@ -37,7 +37,7 @@ std::vector<int> sort_array(std::vector<int>& user_array, int sizearr) { //фу�
     return user_array;
 }
 std::vector<int> sorted_array(std::vector<int>& user_array, int sizearr) { //функция выводящая отсортированный вектор
-    int numelement;
+    int numelement = 0;
     std::cout<<"[";
     for (int j=0;j<sizearr-1; j++) { //вывод
         std::cout<<user_array[numelement]<<", ";
