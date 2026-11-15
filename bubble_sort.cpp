@@ -20,7 +20,7 @@ std::vector<int> init_array(std::vector<int> user_array, int sizearr, int elemen
     std::cout<<user_array[sizearr-1]<<"]";
     return user_array;
 }
-std::vector<int> sort_array(std::vector<int>& user_array, int sizearr) { //функция возвращающая насколько вектор верен
+std::vector<int> sort_array(std::vector<int>& user_array, int sizearr) { //функция возвращающая отсортированный вектор (1 итерация)
     int index = 0;
     int p_d = 0;
     for (int k=0;k<sizearr-1;k++) {
@@ -37,7 +37,7 @@ std::vector<int> sort_array(std::vector<int>& user_array, int sizearr) { //фу�
     }
     return user_array;
 }
-std::vector<int> sorted_array(std::vector<int>& user_array, int sizearr) {
+std::vector<int> sorted_array(std::vector<int>& user_array, int sizearr) { //функция выводящая отсортированный вектор
     int numelement = 0;
     std::cout<<"[";
     for (int j=0;j<sizearr-1; j++) { //вывод
