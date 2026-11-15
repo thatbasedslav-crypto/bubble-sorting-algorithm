@@ -58,7 +58,7 @@ int main() {
     }
     bub = init_array(bub, sizeOfArray, 0);
     std::cout<<"\nHere is the sorted array: ";
-    for (int h=0;h<sizeOfArray;h++) {
+    for (int h=0;h<sizeOfArray-1;h++) {
         bub_sorted = sort_array(bub, sizeOfArray);
     }  
     bub_result = sorted_array(bub_sorted, sizeOfArray);
