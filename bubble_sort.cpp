@@ -62,4 +62,5 @@ int main() {
         bub_sorted = sort_array(bub, sizeOfArray);
     }  
     bub_result = sorted_array(bub_sorted, sizeOfArray);
+    return 0;
 }
