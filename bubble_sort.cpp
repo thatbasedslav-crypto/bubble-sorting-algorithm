@@ -5,7 +5,7 @@
 
 int sizeOfArray;
 std::vector<int> init_array(std::vector<int> user_array, int sizearr, int element) { //функция возвращающая инициализованный вектор
-    int numelement = 0;
+    int numelement;
     for (int i=0;i<sizearr;i++) { //инициализация
         std::cout<<"Initialize element"<<" "<<i+1<<": ";
         std::cin>>element;
