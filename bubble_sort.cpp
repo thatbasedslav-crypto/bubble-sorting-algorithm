@@ -54,6 +54,9 @@ int main() {
     std::vector<int> bub_result;
     std::cout<<"Initialize the size of the array: ";
     std::cin>>sizeOfArray;
+    if (sizeOfArray<1) {
+        std::abort();
+    }
     bub = init_array(bub, sizeOfArray, 0);
     std::cout<<"\nHere is the sorted array: ";
     for (int h=0;h<sizeOfArray;h++) {
