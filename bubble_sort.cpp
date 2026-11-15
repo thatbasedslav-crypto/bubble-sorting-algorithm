@@ -28,10 +28,10 @@ std::vector<int> sort_array(std::vector<int>& user_array, int sizearr) { //фу�
             if (user_array[index]>user_array[index+1]) {
                 std::swap(user_array[index], user_array[index+1]); //меняются местами
             } else {
-                p_d++;
+                //ничего
             }
         } else {
-            p_d++;
+            //ничего
         }
         index++;
     }
